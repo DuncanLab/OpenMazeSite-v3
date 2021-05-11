@@ -177,7 +177,7 @@ class Tutorial extends Component {
                   <br />
 
                   <div class="flex justify-center">
-                    <a
+                    {/* <a
                       target={"_blank"}
                       href="https://www.facebook.com/OpenMaze/"
                     >
@@ -185,7 +185,7 @@ class Tutorial extends Component {
                     </a>
                     <a target={"_blank"} href="https://twitter.com/maze_open">
                       <i className="justify-center fab fa-lg fa-twitter mr-6 my-2 sm:my-3 opacity-53 hover:opacity-90"></i>
-                    </a>
+                    </a> */}
                     <a
                       target={"_blank"}
                       href="https://www.youtube.com/channel/UCZPtVRU5XXfLA7lDqKLeTsg/playlists"

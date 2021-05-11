@@ -8,7 +8,7 @@ const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-white mr-12 ml-2";
 class Navbar extends Component {
   state = {
     // start with the menu closed
-    burger: false
+    burger: false,
   };
   burgerOpen = () => {
     this.setState({ burger: !this.state.burger });
@@ -16,7 +16,6 @@ class Navbar extends Component {
 
   render() {
     return (
-      
       <nav className="flex items-center justify-between flex-wrap px-5 py-4">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <RouterReturn></RouterReturn>
@@ -52,27 +51,30 @@ class Navbar extends Component {
           } w-full block flex sm:flex sm:items-center sm:inline-block sm:w-auto`}
         >
           <div className="text-sm sm:inline-block font-normal sm:flex-grow">
-
             <a
               className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:ml-2  lg:ml-12 sm:mr-2  lg:mr-12   w-auto  py-2 px-2 lg:px-4 rounded-full`}
-              href="https://github.com/DuncanLab/OpenMaze/wiki/Contributing"
+              href="http://openmaze.ca/?ref=contribute"
               target="_blank"
             >
               Contribute
             </a>
             <Link href="/contact">
-              <a className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:mr-2  lg:mr-12  e w-auto  py-2 px-2 lg:px-4 rounded-full`}>Contact</a>
+              <a
+                className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:mr-2  lg:mr-12  e w-auto  py-2 px-2 lg:px-4 rounded-full`}
+              >
+                Contact
+              </a>
             </Link>
 
-
-              <a  href="https://psyarxiv.com/bsj47"
-                className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:mr-2  lg:mr-12  hover:bg-tutorial-blue w-auto border-2 border-tutorial-blue py-2 px-2 lg:px-4 rounded-full`}
-              >
-                Preprint
-              </a>
-            
-            <Link href="/tutorials">
             <a
+              href="https://psyarxiv.com/bsj47"
+              className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:mr-2  lg:mr-12  hover:bg-tutorial-blue w-auto border-2 border-tutorial-blue py-2 px-2 lg:px-4 rounded-full`}
+            >
+              Preprint
+            </a>
+
+            <Link href="/tutorials">
+              <a
                 className={`block text-center mt-4 sm:inline-block sm:mt-0 text-white sm:mr-2 lg:mr-12  hover:bg-tutorial-yellow w-auto border-2 border-tutorial-yellow py-2 px-2 lg:px-4 rounded-full`}
               >
                 Video Tutorials
@@ -88,7 +90,6 @@ class Navbar extends Component {
           </div>
         </div>
       </nav>
-
     );
   }
 }

@@ -35,17 +35,42 @@ const Index = () => (
             {/* <p className="text-5xl font-bold">
               Start to Finish Experiment Design.
               </p> */}
+            <div className="border border-white rounded-lg mt-4">
+              <p className="p-6">
+                This website is associated with the official release of OpenMaze
+                which you can find{" "}
+                <a
+                  href="https://psyarxiv.com/bsj47"
+                  target="_blank"
+                  className="underline"
+                >
+                  here
+                </a>
+                . For the newest version and future updates to OpenMaze, please
+                visit{" "}
+                <a
+                  href="https://openmaze.ca"
+                  target="_blank"
+                  className="underline"
+                >
+                  openmaze.ca
+                </a>
+                .
+              </p>
+            </div>
             <p className="sm:mt-6 m-2 mb-4 text-xs  sm:text-lg text-center">
               OpenMaze is a general-purpose 3D experiment building toolbox,
-              developed for use with Unity Software. OpenMaze
-              requires no prior coding experience, allowing you to spend less
-              time hacking and more time experimenting!
+              developed for use with Unity Software. OpenMaze requires no prior
+              coding experience, allowing you to spend less time hacking and
+              more time experimenting!
             </p>
             <div className="flex text-white text-xs sm:text-base flex-row justify-center m-auto text-center -mb-2">
-                <a href="https://psyarxiv.com/bsj47" className={`flex text-xs sm:text-base inline-block hover:bg-tutorial-blue w-auto border-2   border-tutorial-blue sm:px-4 sm:py-2 rounded-full py-1 px-2`}
-                >
-                  Preprint
-                </a>
+              <a
+                href="https://psyarxiv.com/bsj47"
+                className={`flex text-xs sm:text-base inline-block hover:bg-tutorial-blue w-auto border-2   border-tutorial-blue sm:px-4 sm:py-2 rounded-full py-1 px-2`}
+              >
+                Preprint
+              </a>
 
               <Link href="/tutorials">
                 <a
@@ -62,21 +87,16 @@ const Index = () => (
                   User Manual
                 </a>
               </Link>
-              
- 
-              
-
-
-            </div><br/>
-
-
+            </div>
+            <br />
 
             <div className="text-white flex flex-wrap mx-2">
-            <div className="w-1/4  sm:px-1">
-              <div className="relative rounded-lg bg-local bg-cover">
-                <a href = "http://duncanlab.org/">
-                <img src={Duncan} alt="User's Manual" /></a>
-                {/* <div className="flex ">
+              <div className="w-1/4  sm:px-1">
+                <div className="relative rounded-lg bg-local bg-cover">
+                  <a href="http://duncanlab.org/">
+                    <img src={Duncan} alt="User's Manual" />
+                  </a>
+                  {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
                     <p className="bg-black px-2 rounded-lg rounded-tl-none rounded-br-none">
                       <a className="opacity-75">Set Up</a>
@@ -84,14 +104,15 @@ const Index = () => (
                   </div>
                   <div className="flex-1"></div>
                 </div> */}
+                </div>
               </div>
-            </div>
-          
 
-            <div className="w-1/4  sm:px-1">
-              <div className="relative rounded-lg bg-local bg-cover">
-                <a href = "http://buddingmindslab.utoronto.ca/"><img src={Budding} alt="No Coding Required" /></a>
-                {/* <div className="flex ">
+              <div className="w-1/4  sm:px-1">
+                <div className="relative rounded-lg bg-local bg-cover">
+                  <a href="http://buddingmindslab.utoronto.ca/">
+                    <img src={Budding} alt="No Coding Required" />
+                  </a>
+                  {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
                     <p className="bg-black px-2 rounded-lg rounded-tl-none rounded-br-none">
                       <a className="opacity-75">Create Scenes</a>
@@ -99,14 +120,15 @@ const Index = () => (
                   </div>
                   <div className="flex-1"></div>
                 </div> */}
+                </div>
               </div>
-            </div>
 
-            <div className="w-1/4 sm:px-1">
-              <div className="relative rounded-lg bg-local bg-cover">
-                <a href = "https://cihr-irsc.gc.ca/">
-                <img src={CIHR} alt="User's Manual" /></a>
-                {/* <div className="flex ">
+              <div className="w-1/4 sm:px-1">
+                <div className="relative rounded-lg bg-local bg-cover">
+                  <a href="https://cihr-irsc.gc.ca/">
+                    <img src={CIHR} alt="User's Manual" />
+                  </a>
+                  {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
                     <p className="bg-black px-2 rounded-lg rounded-tl-none rounded-br-none">
                       <a className="opacity-75">Set Up</a>
@@ -114,14 +136,15 @@ const Index = () => (
                   </div>
                   <div className="flex-1"></div>
                 </div> */}
+                </div>
               </div>
-            </div>
-          
 
-            <div className="w-1/4 sm:px-1">
-              <div className="relative rounded-lg bg-local bg-cover">
-                <a href = "https://www.innovation.ca/"><img src={CFI} alt="No Coding Required" /></a>
-                {/* <div className="flex ">
+              <div className="w-1/4 sm:px-1">
+                <div className="relative rounded-lg bg-local bg-cover">
+                  <a href="https://www.innovation.ca/">
+                    <img src={CFI} alt="No Coding Required" />
+                  </a>
+                  {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
                     <p className="bg-black px-2 rounded-lg rounded-tl-none rounded-br-none">
                       <a className="opacity-75">Create Scenes</a>
@@ -129,12 +152,9 @@ const Index = () => (
                   </div>
                   <div className="flex-1"></div>
                 </div> */}
+                </div>
               </div>
             </div>
-            </div>
-
-
-
           </div>
         </div>
       </div>
@@ -169,10 +189,10 @@ const Index = () => (
             </div>
           </Link>
 
-            <div className="w-1/2 pl-1 pr-2 sm:px-4">
-              <div className="relative rounded-lg bg-local bg-cover">
-                <img src={LP_3} alt="No Coding Required" />
-                {/* <div className="flex ">
+          <div className="w-1/2 pl-1 pr-2 sm:px-4">
+            <div className="relative rounded-lg bg-local bg-cover">
+              <img src={LP_3} alt="No Coding Required" />
+              {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
                     <p className="bg-black px-2 rounded-lg rounded-tl-none rounded-br-none">
                       <a className="opacity-75">Create Scenes</a>
@@ -180,15 +200,11 @@ const Index = () => (
                   </div>
                   <div className="flex-1"></div>
                 </div> */}
-              </div>
             </div>
-
+          </div>
 
           <div className="w-full m-2 relative rounded-lg bg-local bg-cover">
-            <a
-              href="https://github.com/DuncanLab/OpenMaze/wiki/Contributing"
-              target="_blank"
-            >
+            <a href="http://openmaze.ca/?ref=contribute" target="_blank">
               <img src={LP_4} alt="Contribute to OpenMaze" />
               {/* <div className="flex ">
                 <div className="flex-1 absolute bottom-0">
@@ -199,16 +215,11 @@ const Index = () => (
                 <div className="flex-1"></div>
               </div> */}
             </a>
-
           </div>
 
           <div className="w-1/2 pl-2 pr-1 sm:px-4">
-
             <div className="relative rounded-lg bg-local bg-cover">
-              <a
-                href="https://unity.com/"
-                target="_blank"
-              >
+              <a href="https://unity.com/" target="_blank">
                 <img src={LP_6} alt="What is the Unity Engine?" />
                 {/* <div className="flex ">
                   <div className="flex-1 absolute bottom-0">
@@ -219,30 +230,25 @@ const Index = () => (
                   <div className="flex-1"></div>
                 </div> */}
               </a>
-
             </div>
-
           </div>
 
           <div className="w-1/2 pr-2 pl-1 sm:px-4">
-
             <div className="relative lg:m-0 rounded-lg bg-local bg-cover">
-              <a
-                href="https://github.com/DuncanLab/OpenMaze/issues"
-                target="_blank"
-              >
+              <a href="http://openmaze.ca/?ref=featureRequest" target="_blank">
                 <img src={LP_5} alt="Feature Requests and Issue Reporting" />
               </a>
-
             </div>
           </div>
 
-          <div className = "text-center w-full m-4 my-8 relative opacity-50">
-                  <p>This website and software is not sponsored by or affiliated with Unity Technologies or its 
-                  affiliates. Unity Trademarks are trademarks or registered trademarks of Unity Technologies 
-                  or its affiliates in the U.S. and elsewhere.</p>
-                </div> 
-
+          <div className="text-center w-full m-4 my-8 relative opacity-50">
+            <p>
+              This website and software is not sponsored by or affiliated with
+              Unity Technologies or its affiliates. Unity Trademarks are
+              trademarks or registered trademarks of Unity Technologies or its
+              affiliates in the U.S. and elsewhere.
+            </p>
+          </div>
         </div>
       </div>
     </div>
