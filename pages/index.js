@@ -37,8 +37,8 @@ const Index = () => (
               </p> */}
             <div className="border border-white rounded-lg mt-4">
               <p className="p-6">
-                This website is associated with the official release of OpenMaze
-                which you can find{" "}
+                This website is associated with the first official release of
+                OpenMaze which you can find{" "}
                 <a
                   href="https://psyarxiv.com/bsj47"
                   target="_blank"
